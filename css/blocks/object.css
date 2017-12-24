@@ -1,0 +1,35 @@
+.object__link{
+  display: block;
+  position: relative;
+  transition: color, .5s;
+  color: var(--black-color);
+
+  &::before{
+    content: "";
+    position: relative;
+    display: block;
+    padding-left: 100%;
+    padding-top: 66%;
+    background-color: var(--main-color);
+    border-radius: 3%;
+  }
+
+  &:hover{
+    color: var(--main-color);
+  }
+}
+
+.object__image{
+  border-radius: 3%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.object__address{
+  display: block;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 2rem;
+}

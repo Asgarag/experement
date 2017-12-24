@@ -1,0 +1,20 @@
+.info{
+  position: relative;
+  padding-left: 27px;
+}
+
+.info__name{
+  font-weight: 700;
+  display: block;
+}
+
+.info__value{
+  display: block;
+  color: inherit;
+}
+
+.info__icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+}

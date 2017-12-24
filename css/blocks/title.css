@@ -1,0 +1,28 @@
+.title{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.title_xxl{
+  font-size: 2.8rem;
+}
+
+.title_xl{
+  font-size: 2.6rem;
+}
+
+.title_l{
+  font-size: 2.4rem;
+}
+
+.title_m{
+  font-size: 2.2rem;
+}
+
+.title_s{
+  font-size: 2rem;
+}
+
+.title_xs{
+  font-size: 1.5rem;
+}

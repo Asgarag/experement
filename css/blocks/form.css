@@ -1,0 +1,44 @@
+.form__fieldbox{
+  position: relative;
+  margin-top: .8rem;
+}
+
+.form__icon{
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form__input{
+  width: 100%;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 40px;
+  border: 1px solid var(--gray-color);
+  border-radius: 0;
+  appearance: none;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+
+  &::placeholder{
+    color: var(--gray-color);
+  }
+}
+
+.form__label{
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form__fieldbox_name::before{
+  background-image: url('../images/person.svg');
+}
+
+.form__fieldbox_date::before{
+  background-image: url('../images/date_range.svg');
+}
+
+.form__fieldbox_search::before{
+  background-image: url('../images/search.svg');
+}

@@ -1,0 +1,21 @@
+.pagination{
+  margin-top: 5rem;
+  font-size: 1.8rem;
+  display: flex;
+}
+
+.pagination__item{
+  color: var(--additional-color);
+  padding: .6rem 1rem;
+  transition: color, background-color .5s;
+
+  &:hover{
+    color: var(--white-color);
+    background-color: var(--additional-color);
+  }
+}
+
+.pagination__item_active{
+  color: var(--white-color);
+  background-color: var(--main-color);
+}

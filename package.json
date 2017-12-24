@@ -1,0 +1,33 @@
+{
+  "name": "experement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0"
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.2",
+    "gulp-uglify": "^3.0.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asgarag/experement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asgarag/experement/issues"
+  },
+  "homepage": "https://github.com/Asgarag/experement#readme"
+}

@@ -1,0 +1,52 @@
+@media (--big) {
+
+  .post__title{
+    padding-right: 3rem;
+  }
+}
+
+.post__content{
+  margin-top: 1.7rem;
+}
+
+.post{
+  display: flex;
+}
+
+.post__day{
+  font-size: 4.5rem;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.post__year{
+  font-size: 1.5rem;
+}
+
+.post__month{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.post__time{
+  text-align: center;
+  min-width: 5rem;
+}
+
+.post__day, .post__month{
+  display: block;
+}
+
+.post__inner{
+  margin-top: .6rem;
+  margin-left: 1.5rem;
+}
+
+.post__link{
+  color: inherit;
+  transition: color .5s;
+
+  &:hover{
+    color: var(--main-color);
+  }
+}

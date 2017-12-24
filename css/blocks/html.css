@@ -1,0 +1,70 @@
+:root{
+  --white-color: #fff;
+  --black-color: #000000;
+  --gray-color: #bebec0;
+  --additional-color: #4758a5;
+  --main-color: #384997;
+}
+
+@custom-media --small screen and (width <= 768px);
+@custom-media --medium screen and (width <= 1024px) and (width > 768px);
+@custom-media --big screen and (width > 1024px);
+
+@media (--big) {
+
+  html{
+    font-size: 62.5%;
+  }
+}
+
+@media (--medium) {
+
+  html{
+    font-size: 57%;
+  }
+}
+
+@media (--small) {
+
+  html{
+    font-size: 54%;
+  }
+}
+
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+p{
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+p:last-child{
+  margin-bottom: 0;
+}
+
+ul{
+  line-height: 1.7;
+}
+
+body{
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  background-color: var(--white-color);
+  margin: 0;
+  color: var(--black-color);
+}
+
+.icon{
+  fill: var(--additional-color);
+  width: 24px;
+  height: 24px;
+}

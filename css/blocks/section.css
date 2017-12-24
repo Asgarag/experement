@@ -1,0 +1,15 @@
+.section__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.section__link{
+  color: var(--additional-color);
+  font-size: 1.5rem;
+}
+
+.section__item:not(:last-of-type){
+  margin-bottom: 1rem;
+}

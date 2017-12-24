@@ -1,0 +1,15 @@
+.document__link{
+  display: flex;
+  align-items: center;
+}
+
+.document__icon{
+  min-width: 40px;
+  max-width: 40px;
+  height: 46px;
+  margin-right: 1rem;
+}
+
+.document__name{
+  color: var(--additional-color);
+}
