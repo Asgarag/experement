@@ -379,14 +379,14 @@ body{
   }
 }
 
-@media screen and screen and (max-width: 768px) and (orientation: portrait){
+@media screen and (max-width: 768px) and (orientation: portrait){
 
   .header__logo{
     width: 50%;
   }
 }
 
-@media screen and screen and (max-width: 768px) and (orientation: landscape){
+@media screen and (max-width: 768px) and (orientation: landscape){
 
   .header__logo{
     width: 35%;

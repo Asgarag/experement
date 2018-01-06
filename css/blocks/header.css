@@ -64,14 +64,14 @@
   }
 }
 
-@media screen and (--small) and (orientation: portrait){
+@media (--small) and (orientation: portrait){
 
   .header__logo{
     width: 50%;
   }
 }
 
-@media screen and (--small) and (orientation: landscape){
+@media (--small) and (orientation: landscape){
 
   .header__logo{
     width: 35%;
